@@ -73,9 +73,9 @@ span {
 }
 .vertical-line {
   border: none;
-  border-left: 2px solid #e8c32f; 
+  border-left: 3px solid #e8c32f; 
   margin-right: -18rem;
-  height: 14rem; 
+  height: 19rem; 
 }
 .name a{
   font-size: 3rem;
@@ -96,9 +96,9 @@ span {
 button{
   margin: 1rem;
   padding: 0.8rem;
-  padding-left: 3.2rem;
+  padding-left: 2.8rem;
   padding-right: 3.2rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   line-height: 1rem;
   background-color: #21272F;
   color: #d3dfeb;

@@ -1,0 +1,63 @@
+@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+
+ul {
+    display: flex;
+    gap: 30px;
+  }
+  
+  li {
+    list-style: none;
+    --color: #ff0050;
+  }
+  .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color:#d3dfeb;
+    font-family: "Work Sans", sans-serif;
+  }
+  
+  .contact>.phone, .location, .email{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.3rem;
+    gap: 15px;
+  }
+  
+  .contact>ul>li>a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #21272F;
+    border-radius: 15px;
+    box-shadow:
+      -2px -2px 3px #ffffff0d,
+      3px 3px 3px #00000033;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .fa-brands, .fa {
+    font-size: 18px;
+    color: #e8c32f;
+    transition: all .3s ease-in-out;
+  }
+ 
+  a:hover .fa-brands {
+    color: var(--color);
+    text-shadow: 0 0 30px var(--color);
+  }
+  
+  li:nth-child(2) {
+    --color: #1c7dd5;
+  }
+  
+  li:nth-child(3) {
+    --color: #d43256;
+  }
+  
+  li:nth-child(4) {
+    --color: #4cd137;
+  }

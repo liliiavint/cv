@@ -53,6 +53,7 @@ span {
 .main-nav {
   display: flex;
   gap: 3.25rem;
+  color:#d3dfeb;
 }
 .main-nav > .nav-link {
   font-size: 1.3rem;
@@ -105,6 +106,11 @@ button{
   text-transform: uppercase;
   border-radius: 1.5rem;
   border: 3px solid #e8c32f;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #343c48;
+
 }
 
 .tag-list {

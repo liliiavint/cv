@@ -75,7 +75,7 @@ span {
   border: none;
   border-left: 3px solid #e8c32f; 
   margin-right: -18rem;
-  height: 19rem; 
+  height: 22rem; 
 }
 .name a{
   font-size: 3rem;
@@ -87,6 +87,7 @@ span {
   font-family: "Work Sans", sans-serif;
   padding: 1rem;
 }
+
 .photo {
   width: 25rem;
   height: 32rem;
